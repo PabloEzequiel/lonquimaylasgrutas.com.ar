@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>LONQUIMAY - Las Grutas - Río Negro</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+		<!-- swiper styles -->
+		<style>
+		.swiper {
+			width: 100%;
+			height: 100%;
+		}
+
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.swiper-slide img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.swiper {
+			width: 100%;
+			height: 300px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.swiper-slide {
+			background-size: cover;
+			background-position: center;
+		}
+
+		.mySwiper2 {
+			height: 80%;
+			width: 100%;
+		}
+
+		.mySwiper {
+			height: 20%;
+			box-sizing: border-box;
+			padding: 10px 0;
+		}
+
+		.mySwiper .swiper-slide {
+			width: 25%;
+			height: 100%;
+			opacity: 0.4;
+		}
+
+		.mySwiper .swiper-slide-thumb-active {
+			opacity: 1;
+		}
+
+		/*
+		.swiper-slide img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		}
+		*/
+		/* Asegura que las imágenes se ajusten dentro del slider */
+		.swiper-slide img {
+			width: 100%; /* Las imágenes ocupan todo el ancho disponible */
+			height: 100%; /* Las imágenes ocupan todo el alto disponible */
+			object-fit: contain; /* Ajusta las imágenes sin recortar (mantiene proporción) */
+			background-color: #ececec; /* Fondo gris claro */
+		}
+
+		.my-swiper-container {
+			width: 100%;                /* Ocupa el 80% del ancho de la pantalla */
+			max-width: 1200px;         /* Ancho máximo (opcional) */
+			height: 500px;             /* Alto fijo */
+			margin: 0 auto;            /* Centrado horizontal */
+			border: 1px solid #ccc;    /* Borde alrededor del contenedor */
+			border-radius: 8px;        /* Bordes redondeados */
+			background-color: #fff;    /* Fondo blanco */
+			
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+			justify-content: center;   /* Centrar contenido horizontalmente */
+			align-items: center;       /* Centrar contenido verticalmente */
+		}
+
+
+		/* Personalización de las flechas */
+		.swiper-button-next,
+		.swiper-button-prev {
+			color: darkred; /* Color rojo */
+			background-color: rgba(226, 122, 129, 0.1); /* Fondo rojo claro semitransparente */
+			border-radius: 50%; /* Forma circular */
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+			width: 45px; /* Tamaño ancho */
+			height: 45px; /* Tamaño alto */
+		}
+
+		.swiper-button-next:hover,
+		.swiper-button-prev:hover {
+			background-color: rgba(206, 119, 119, 0.799); /* Fondo más oscuro al pasar el mouse */
+			transform: scale(1.1); /* Efecto de agrandamiento */
+			transition: 0.3s ease; /* Transición suave */
+		}
+
+		/* Ajuste para flechas específicas */
+		.swiper-button-next {
+			right: 10px; /* Ajuste horizontal para separación */
+		}
+
+		.swiper-button-prev {
+			left: 10px; /* Ajuste horizontal para separación */
+		}
+		</style>
+
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Logo -->
+					<h1><a href="index.html" id="logo">LONQUIMAY <em>Las Grutas - Río Negro</em></a></h1>
+
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="lm-dto-A-6pax.html">Dpto 6 PAX</a></li>
+							<li><a href="lm-dto-B-5pax.html">Dpto 5 PAX</a></li>
+							<li class="current"><a href="lm-dto-C-4pax.html">Dpto 4 PAX</a></li>
+							<li><a href="lm-dto-mono.html">Mono Ambiente</a></li>
+							<li><a href="lm-op-ubicacion.html">Ubicacion</a></li>
+							<li><a href="lm-op-contacto.html">Contacto</a></li>
+						</ul>
+					</nav>
+
+				</div>	
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div id="content">
+
+							<!-- Content -->
+
+							<article>
+								<header>
+									<h2>Departamentos Para 4 Personas</h2>
+									<p>Complejo Lonquimay</p>
+								</header>
+
+								<p>
+								Distribución y comodidades de los departamentos <strong>para 4 personas</strong>. 
+								<br>Completamente equipados. 
+								<ul>
+									<li>Heladera, Microondas, Televisión, Internet, Wifi, Ropa de Cama
+									<li>Espacio semicubierto para el auto
+									<li>Parrillas individuales
+								</ul>
+								</p>
+
+
+  <!-- Swiper -->
+
+  <div class="my-swiper-container">
+    <!-- Botón de pantalla completa 
+    <button class="fullscreen-button" onclick="toggleFullscreen()">Fullscreen</button>
+	-->
+        
+
+    <div
+      style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+      class="swiper mySwiper2"
+    >
+      <div class="swiper-wrapper">
+		  
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_C1-400px.jpg" /></div>
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_C2-400px.jpg" /></div>
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_C3-400px.jpg" /></div>
+		  
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_D2-400px.jpg" /></div>
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_D1-400px.jpg" /></div>		
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_D3-400px.jpg" /></div>
+
+        <div class="swiper-slide"><img src="images/exterior/Lonquimay_z_01-400px.jpg" /></div>
+        <div class="swiper-slide"><img src="images/exterior/Lonquimay_z_02-400px.jpg" /></div>
+        <div class="swiper-slide"><img src="images/exterior/Lonquimay_z_03-400px.jpg" /></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div thumbsSlider="" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+		  
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_C1-400px.jpg" /></div>
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_C2-400px.jpg" /></div>
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_C3-400px.jpg" /></div>
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_C4-400px.jpg" /></div>
+		  
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_D2-400px.jpg" /></div>
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_D1-400px.jpg" /></div>		
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_D3-400px.jpg" /></div>
+		  <div class="swiper-slide"><img src="images/dto-c-4pax/Deptos_D4-400px.jpg" /></div>
+		  
+        <div class="swiper-slide"><img src="images/exterior/Lonquimay_z_01-400px.jpg" /></div>
+        <div class="swiper-slide"><img src="images/exterior/Lonquimay_z_02-400px.jpg" /></div>
+        <div class="swiper-slide"><img src="images/exterior/Lonquimay_z_03-400px.jpg" /></div>
+      </div>
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 7,
+        freeMode: true,
+        watchSlidesProgress: true,
+
+      });
+      
+      var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+
+
+		// Función para habilitar/deshabilitar fullscreen
+		// function toggleFullscreen() {
+		// 	const container = document.querySelector('.container');
+		// 	if (!document.fullscreenElement) {
+		// 		container.classList.add('fullscreen-active');
+		// 		container.requestFullscreen().catch(err => {
+		// 		console.error(`Error al intentar entrar en fullscreen: ${err.message}`);
+		// 		});
+		// 	} else {
+		// 		document.exitFullscreen();
+		// 		container.classList.remove('fullscreen-active');
+		// 	}
+		// }
+    </script>
+
+
+</div>
+
+
+							</article>
+
+						</div>
+					</div>
+				</section>
+
+
+
+
+
+								
+								
+								
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+
+							<section class="col-6 col-12-narrower">
+								<h3>Contacto</h3>
+								<ul class="links">
+									<li>Silvia</li>
+									<li>Celular: (02934) 154-11532</li>
+									<li><a href="mailto:silvidd@gmail.com">silvidd@gmail.com</a></li>
+									<li><a href="wa.me/5492934411532" target="wp">wa.me/5492934411532</a></li>
+
+								</ul>
+
+							</section>
+						</div>
+					</div>
+
+					<!-- Icons -->
+					<ul class="icons">
+						<li><a href="https://www.instagram.com/lonquimaylg/" class="icon brands fa-instagram" target="lonquimay_instagram"><span class="label">instagram</span></a></li>
+						<li><a href="http://wa.me/5492934411532" class="icon brands fa-whatsapp" target="lonquimay_wp"><span class="label">whatsapp</span></a></li>
+						<li><a href="https://lasgrutasturismo.gob.ar/directory/lonquimay/" target="lonquimay_turismo"> <img alt="Las_Grutas_Turismo_Logo" src="images/lasgrutas-turismo.avif" style="width: 32px; height: 32px"></a></li>
+					</ul>
+
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

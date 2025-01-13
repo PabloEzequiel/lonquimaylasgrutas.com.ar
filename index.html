@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>LONQUIMAY - Las Grutas - Río Negro</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<!-- Link Swiper's CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	
+		<!-- Link Swiper's CSS styles -->
+		<style>
+		.swiper {
+			width: 100%;
+			height: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	
+		.swiper-slide img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+
+		/* Imagen activa (destacada) */
+		.swiper-slide-active img {
+			filter: brightness(1); /* Brillo normal */
+		}
+
+		/* Imágenes no activas (oscurecidas) */
+		.swiper-slide:not(.swiper-slide-active) img {
+			filter: brightness(0.7); /* Reducir brillo */
+		}
+		</style>
+		
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Logo -->
+					<h1><a href="index.html" id="logo">LONQUIMAY <em>Las Grutas - Río Negro</em></a></h1>
+
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="current"><a href="index.html">Inicio</a></li>
+							<li><a href="lm-dto-A-6pax.html">Dpto 6 PAX</a></li>
+							<li><a href="lm-dto-B-5pax.html">Dpto 5 PAX</a></li>
+							<li><a href="lm-dto-C-4pax.html">Dpto 4 PAX</a></li>
+							<li><a href="lm-dto-mono.html">Mono Ambiente</a></li>
+							<li><a href="lm-op-ubicacion.html">Ubicacion</a></li>
+							<li><a href="lm-op-contacto.html">Contacto</a></li>
+						</ul>
+					</nav>
+
+				</div>
+
+
+
+
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+		<div class="swiper-wrapper">
+		  <div class="swiper-slide"><img src="images/carr/Lonquimay_b_01.jpg"/></div><!-- Afuera1 -->
+		  <div class="swiper-slide"><img src="images/carr/Lonquimay_b_04.jpg"/></div><!-- Cocina -->
+		  <div class="swiper-slide"><img src="images/carr/Lonquimay_b_03.jpg"/></div><!-- Mono -->
+		  <div class="swiper-slide"><img src="images/carr/Lonquimay_b_05.jpg"/></div><!-- Afuera2 -->
+		  <div class="swiper-slide"><img src="images/carr/Lonquimay_b_06.jpg"/></div><!-- Cama -->
+		  <div class="swiper-slide"><img src="images/carr/Lonquimay_b_02.jpg"/></div><!-- Sillas -->
+		</div>
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-pagination"></div>
+	  </div>
+  
+	  <!-- Swiper JS -->
+	  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+	  <!-- Initialize Swiper -->
+	  <script>
+		var swiper = new Swiper(".mySwiper", {
+		  slidesPerView: 3,
+		  spaceBetween: 5,
+		  loop: true,
+		  centeredSlides: true,
+		  loopedSlides: 5,         // Asegura que el loop funcione con las 5 imágenes
+		  keyboard: {
+			enabled: true,
+		  },
+		  breakpoints: {
+			650: {
+				slidesPerView: 4,
+				spaceBetween: 5,
+			},
+			900: {
+				slidesPerView: 5,
+				spaceBetween: 5,
+			},
+		  },
+		  pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		  },
+		  navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		  },
+		});
+	  </script>
+
+			<!-- Highlights -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div class="row gtr-200">
+							<section class="col-4 col-12-narrower">
+								<div class="box highlight">
+									<i class="icon solid major fa-paper-plane"></i>
+									<h3>Exteriores</h3>
+									<p>
+									<strong>Espacios semicubierto</strong> para <strong>vehículos</strong> 
+									y <strong>parrilla individual</strong> 
+									para que puedas disfrutar de las noches al aire libre.
+									</p>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower">
+								<div class="box highlight">
+									<i class="icon solid major fa-pencil-alt"></i>
+									<h3>Interior</h3>
+									<p>Heladera, Microondas, Ropa de Cama, y todo lo que necesitás para tu día a día.</p>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower">
+								<div class="box highlight">
+									<i class="icon solid major fa-wrench"></i>
+									<h3>Tecnología</h3>
+									<p> 
+										Equipados con <strong>Televisión por Cable</strong> e <strong>Internet</strong>, para que disfrutes de entretenimiento y te mantengas al día con la actualidad.
+									</p>
+								</div>
+							</section>
+						</div>
+					</div>
+				</section>
+
+			<!-- Gigantic Heading -->
+				<section class="wrapper style2">
+					<div class="container">
+						<header class="major">
+							<h2>Alojamiento temporario en Las Grutas</h2>
+							<p>Disfrutá de tus vacaciones a dos cuadras de la playa
+							</p>
+						</header>
+					</div>
+				</section>
+
+			<!-- Posts -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div class="row">
+							<!-- <section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="#" class="image left"><img src="images/next/Logo_Lonquimay-gris.jpg" alt="" /></a>
+									<div class="inner">
+										<h3>El complejo</h3>
+										<p>Cerca del centro y la playa! Con sus departamentos listos para cada necesidad.</p>
+									</div>
+								</div>
+							</section> -->
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="lm-dto-A-6pax.html" class="image left"><img src="images/Depto-A1_150p.jpg" alt="" /></a>
+									<div class="inner">
+										<h3>Departamento 6 PAX</h3>
+										<p>Completamente equipados para disfrutar de Las Grutas en familia.</p>
+									</div>
+								</div>
+							</section>
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="lm-dto-B-5pax.html" class="image left"><img src="images/Depto-B2_150p.jpg" alt="" /></a>
+									<div class="inner">
+										<h3>Departamento 5 PAX</h3>
+										<p>Completamente equipados para disfrutar de Las Grutas en familia.</p>
+									</div>
+								</div>
+							</section>
+						</div>
+						<div class="row">
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="lm-dto-C-4pax.html" class="image left"><img src="images/Depto-C2_150p.jpg" alt="" /></a>
+									<div class="inner">
+										<h3>Departamento 4 PAX</h3>
+										<p>Completamente equipados para disfrutar de Las Grutas en familia.</p>
+									</div>
+								</div>
+							</section>
+							<section class="col-6 col-12-narrower">
+								<div class="box post">
+									<a href="lm-dto-mono.html" class="image left"><img src="images/Depto-M1_150p.jpg" alt="" /></a>
+									<div class="inner">
+										<h3>Deptos mono ambiente</h3>
+										<p>Ideales para disfrutar de <br>
+											Las Grutas en companía!</p>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</section>
+
+			<!-- CTA -->
+				<section id="cta" class="wrapper style3">
+					<div class="container">
+						<header>
+							<h2>¿Querés disfrutar de Las Grutas?</h2>
+							<br>
+							<b>Escribinos!</b>
+						</header>
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+
+						<section class="col-6 col-12-narrower">
+							<h3>Contacto</h3>
+							<ul class="links">
+								<li>Silvia</li>
+								<li>Celular: (02934) 154-11532</li>
+								<li><a href="mailto:silvidd@gmail.com">silvidd@gmail.com</a></li>
+								<li><a href="wa.me/5492934411532" target="wp">wa.me/5492934411532</a></li>
+
+							</ul>
+
+						</section>
+					</div>
+				</div>
+
+				<!-- Icons -->
+				<ul class="icons">
+					<li><a href="https://www.instagram.com/lonquimaylg/" class="icon brands fa-instagram" target="lonquimay_instagram"><span class="label">instagram</span></a></li>
+					<li><a href="http://wa.me/5492934411532" class="icon brands fa-whatsapp" target="lonquimay_wp"><span class="label">whatsapp</span></a></li>
+					<li><a href="https://lasgrutasturismo.gob.ar/directory/lonquimay/" target="lonquimay_turismo"> <img alt="Las_Grutas_Turismo_Logo" src="images/lasgrutas-turismo.avif" style="width: 32px; height: 32px"></a></li>
+				</ul>
+					
+					
+						
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
