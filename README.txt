@@ -1,5 +1,5 @@
 Sitio Web de 
-Lonquimay.com.ar
+lonquimaylasgrutas.com.ar
 
 Departamentos en Alquiler en Las Grutas, Río Negro, Argentina
 
